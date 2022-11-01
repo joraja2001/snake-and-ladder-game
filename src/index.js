@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Input from './gettinginput';
+import Getting from './gettingnameinput';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
+import SnakeAndLadderGame from './SnakeAndLadderGame';
+// import SnakeAndLadderGame from '.GameComponents/SnakeAndLadderGame';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <SnakeAndLadderGame/> */}
+    {/* <SnakeAndLadderGame/> */}
+    <Input/>
+    {/* <Getting/> */}
   </React.StrictMode>
 );
 
