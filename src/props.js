@@ -1,5 +1,5 @@
 import React from 'react'
-import PalyerProp from './playerProp'
+// import PalyerProp from './playerProp'
 import './prop.css'
 import { playerNamesObject } from './gettingnameinput'
 const Props = ({ value, data, symbol }) => {
@@ -12,7 +12,7 @@ const Props = ({ value, data, symbol }) => {
     return (
         <div className='lop' id={`Box${value.toString()}`}>
             <div className='box'>
-                {playerArr.map(n => <PalyerProp Player={n} key={n} />)}
+                {playerArr.map(n => <span>{n}</span>)}
             </div>
             <div className='players'>
                 <div>{value}</div>

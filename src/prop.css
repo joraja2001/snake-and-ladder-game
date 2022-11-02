@@ -13,18 +13,21 @@
     background-color: red;
     display: grid;
 } */
-.box{
+ .box{
     grid-row: 1/4;
     margin-left: 0.7em;
     display: flex;
-    font-size: 4px;
-    background-color: blueviolet;
+    font-size: 10px;
+    background-color: rgb(168, 54, 13);
     border-radius: 0.5em;
-
+    text-align: center;
+    color: aliceblue;
 }
-.players{
-    margin: 0;
+ .players{
+    /* margin: 0;
     margin-top: 3.5px;
     font-size: 12px;
-    margin-left: 0em;
-}
+    margin-left: 0em; */
+    color: rgb(13, 10, 9);
+    text-align: center;
+}  
